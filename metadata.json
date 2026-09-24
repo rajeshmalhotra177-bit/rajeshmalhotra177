@@ -1,0 +1,6 @@
+{
+  "name": "HearClear",
+  "description": "Smart Bluetooth headphone ambient voice and call-out detector that alerts and passes through speech clearly when someone calls you.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

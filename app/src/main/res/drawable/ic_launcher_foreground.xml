@@ -1,0 +1,89 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:pivotX="54"
+        android:pivotY="54">
+        <!-- Headphones Headband -->
+        <path
+            android:pathData="M32,56 C32,41.6 41.8,30 54,30 C66.2,30 76,41.6 76,56"
+            android:strokeWidth="5"
+            android:strokeLineCap="round"
+            android:fillColor="#00000000">
+            <aapt:attr name="android:strokeColor">
+                <gradient
+                    android:startX="32"
+                    android:startY="30"
+                    android:endX="76"
+                    android:endY="56"
+                    android:type="linear">
+                    <item android:offset="0.0" android:color="#00E5FF" />
+                    <item android:offset="1.0" android:color="#38BDF8" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- Left Ear Cup -->
+        <path
+            android:pathData="M27,53 L33,53 A4,4 0 0,1 37,57 L37,67 A4,4 0 0,1 33,71 L27,71 A4,4 0 0,1 23,67 L23,57 A4,4 0 0,1 27,53 Z"
+            android:fillColor="#00E5FF" />
+
+        <!-- Right Ear Cup -->
+        <path
+            android:pathData="M75,53 L81,53 A4,4 0 0,1 85,57 L85,67 A4,4 0 0,1 81,71 L75,71 A4,4 0 0,1 71,67 L71,57 A4,4 0 0,1 75,53 Z"
+            android:fillColor="#00E5FF" />
+
+        <!-- Center Listening Ear / Voice Aura -->
+        <!-- Ear Contour -->
+        <path
+            android:pathData="M51,46 C45.5,46 41,50.5 41,56 C41,63 46,65 47,70 C47.5,72.5 49.5,74 52,74 C54.8,74 57,71.8 57,69 C57,64.5 53,62 53,56 C53,52.7 55.7,50 59,50"
+            android:strokeWidth="3.2"
+            android:strokeLineCap="round"
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFFF" />
+
+        <!-- Inner ear lobe curve -->
+        <path
+            android:pathData="M50,56 C50,54.5 51.5,53 53,53 C54.5,53 56,54.2 56,56 C56,59 51,60.5 51,64"
+            android:strokeWidth="2.2"
+            android:strokeLineCap="round"
+            android:fillColor="#00000000"
+            android:strokeColor="#38BDF8" />
+
+        <!-- Incoming Clear Voice Soundwaves on the left -->
+        <path
+            android:pathData="M15,50 C12,54 12,62 15,66"
+            android:strokeWidth="2.5"
+            android:strokeLineCap="round"
+            android:fillColor="#00000000"
+            android:strokeColor="#4ADE80" />
+        <path
+            android:pathData="M19,53 C17,55.5 17,60.5 19,63"
+            android:strokeWidth="2.2"
+            android:strokeLineCap="round"
+            android:fillColor="#00000000"
+            android:strokeColor="#4ADE80" />
+
+        <!-- Incoming Clear Voice Soundwaves on the right -->
+        <path
+            android:pathData="M93,50 C96,54 96,62 93,66"
+            android:strokeWidth="2.5"
+            android:strokeLineCap="round"
+            android:fillColor="#00000000"
+            android:strokeColor="#4ADE80" />
+        <path
+            android:pathData="M89,53 C91,55.5 91,60.5 89,63"
+            android:strokeWidth="2.2"
+            android:strokeLineCap="round"
+            android:fillColor="#00000000"
+            android:strokeColor="#4ADE80" />
+
+        <!-- Center Speech Star / Focus Indicator -->
+        <path
+            android:pathData="M54,38 L55.2,41 L58,41.5 L55.8,43.2 L56.5,46 L54,44.5 L51.5,46 L52.2,43.2 L50,41.5 L52.8,41 Z"
+            android:fillColor="#FBBF24" />
+    </group>
+</vector>
